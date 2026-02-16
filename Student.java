@@ -14,6 +14,7 @@ public class Student
         m1=scan.nextInt();
         m2=scan.nextInt();
         m3=scan.nextInt();
+        scan.close();
     }
     void cal()
     {
