@@ -32,7 +32,7 @@ public class Max3 extends Frame implements ActionListener
         setVisible(true);
         addWindowListener(new WindowAdapter() 
         {
-            public void window(WindowEvent we)
+            public void windowClosing(WindowEvent we)
             {
                 System.exit(0);
             }
