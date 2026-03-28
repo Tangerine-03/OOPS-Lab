@@ -26,7 +26,7 @@ class StudSearch
             int sNo=s.nextInt();
             System.out.print("Student Name:");
             String sName=s.next();
-            System.out.print("Student Mark:");
+            System.out.print("Student Mark  :");
             int sMarks=s.nextInt();
             st[i]=new Student(sNo,sName,sMarks);
         }
