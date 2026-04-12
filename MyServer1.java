@@ -4,7 +4,7 @@ public class MyServer1
 {
     public static void main(String args[]) throws IOException
     {
-        DatagramSocket dSocket=new DatagramSocket(9876);
+        DatagramSocket dSocket=new DatagramSocket(9000);
         byte[] buf=new byte[256];
         DatagramPacket packet=new DatagramPacket(buf,buf.length);
         dSocket.receive(packet);
